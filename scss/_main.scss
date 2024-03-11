@@ -1,0 +1,62 @@
+main{
+    .parrafo{
+        padding: 10px;
+        color: white;
+        margin: 30px;
+        
+    }
+    .nike{
+        transition: transform 0.3s ease;
+    }
+    .nike:hover{
+        transform: scale(1.2);
+    }
+    .spotify{
+        transition: transform 0.3s ease;
+    }
+    .spotify:hover{
+        transform: scale(1.2);
+    }
+    .historia{
+        .contenidox{
+        display: flex;
+        flex-direction: row;
+        }
+    }
+    @media screen and (max-width: 575px){
+        .historia{
+            .contenidox{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    
+      video { 
+        padding: 20px;
+               text-align: center;
+               width: 100%;   
+                  
+    }
+
+    .palmares li{
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        
+    
+    }  
+    fieldset{
+        form{
+            color: white;
+            text-align: center;   
+        }
+    
+    }
+
+    
+
+    }
